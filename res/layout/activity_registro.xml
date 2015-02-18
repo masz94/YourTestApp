@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#688A08" >
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/registro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/registro_titulo"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </TableRow>
+   
+   <EditText
+        android:id="@+id/nombre"
+        style="@style/Estilo3"
+        android:background="@drawable/bordes"
+        android:layout_width="wrap_content"
+        android:hint="@string/nombre"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+ 
+    <EditText
+        android:id="@+id/apellidos"
+        style="@style/Estilo3"
+        android:background="@drawable/bordes"
+        android:layout_width="wrap_content"
+        android:hint="@string/apellidos"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+        <EditText
+        android:id="@+id/correo"
+        style="@style/Estilo3"
+        android:background="@drawable/bordes"
+        android:layout_width="wrap_content"
+        android:hint="@string/correo"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+  
+        <EditText
+            android:id="@+id/contra"
+            style="@style/Estilo3"
+            android:layout_width="wrap_content"
+            android:hint="@string/avizo_contra"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bordes"
+            android:ems="10"
+            android:inputType="textPassword" />
+<TableRow>
+        <Button
+            android:id="@+id/aceptar"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/btn_aceptar" />
+        </TableRow>
+        
+</TableLayout>

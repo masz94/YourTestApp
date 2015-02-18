@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YourQuiz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="yourquiz_logo">YourQuiz_Logo</string>
+    <string name="sobre_img">Correo_Electrónico</string>
+    <string name="candado_img">Contraseña</string>
+     <string name="facebook_img">Facebook_Acceso</string>
+    <string name="facebook_login">Login con Facebook</string>
+    <string name="avizo_correo">Correo Electrónico</string>
+    <string name="avizo_contra">Contraseña</string>
+    <string name="btn_acceder">Acceder</string>
+    <string name="registro">Registrarse</string>
+    <string name="registro_titulo">Registro</string>
+    <string name="nombre">Nombre(s)</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="correo">Correo Electrónico</string>
+    <string name="contra">Contraseña</string>
+    <string name="btn_aceptar">Aceptar</string>
+
+</resources>
